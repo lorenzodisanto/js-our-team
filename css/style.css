@@ -1,0 +1,12 @@
+body {
+  background-color: azure;
+}
+
+.box {
+  border: 1px solid gray;
+  background-color: #e0fefe;
+}
+
+.image {
+  width: 100%;
+}
