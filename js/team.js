@@ -40,11 +40,11 @@ for (let person of team) {
 const userContainer = document.getElementById("teams");
 for (let person of team) {
   const userHtml = `
-  <div class = "col-4">
-  <div class = "card">
-  <p>${person.name}</p>
+  <div class = "col-md-6 col-lg-4">
+  <div class = "box text-center">
+  <img src="./img/${person.image}" alt="" class = "image">
+  <p class="fw-bold fs-5">${person.name}</p>
   <p>${person.role}</p>
-  <p>${person.image}</p>
   </div>
   </div>`;
 
